@@ -23,7 +23,7 @@ public class LoginPageSteps {
 		options.addArguments("--incognito");
 		driver = new ChromeDriver(options);
 		driver.get("https://www.saucedemo.com/");
-		//driver.manage().window().maximize(); 
+		driver.manage().window().maximize(); 
 
 	}
 
